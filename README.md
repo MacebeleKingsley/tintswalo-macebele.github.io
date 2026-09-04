@@ -1,18 +1,17 @@
-# Data Scientist
+# Project Engineer 
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: MS Project, Python, KiCad, Visio, Excel, MATLAB, D365
 
-## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+## Education					       		
+- B.S.c Eng. in Mechatronics	| The University of Cape Town (UCT) (_March 2025_)	 			        		
+- Matric Certificate | Kwa-Bhekilanga Sec School (_Jan 2019_)
 
 ## Work Experience
-**Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
+**Project Engineer, Operations -- Graduate @ Motus Aftermarket Parts (_June 2026 - Aug 2026_)**
 - Uncovered and corrected missing step in production data pipeline which impacted over 70% of active accounts
 - Redeveloped loan originations model which resulted in 50% improvement in model performance and saving 1 million dollars in potential losses
 
-**Data Science Consultant @ Shawhin Talebi Ventures LLC (_December 2020 - Present_)**
+**Mechanical Engineering Vac Student @ Cape Peninsula University of Technology (_Nov 2021 - Dec 2021_)**
 - Conducted data collection, processing, and analysis for novel study evaluating the impact of over 300 biometrics variables on human performance in hyper-realistic, live-fire training scenarios
 - Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
 
