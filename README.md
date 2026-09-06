@@ -28,7 +28,7 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 ![EEG Band Discovery](images/images/nwet.jpg)
 ![EEG Band Discovery](images/images/sensor.avif)
 ![EEG Band Discovery](images/images/hh.avif)
-![EEG Band Discovery](images/images/Plan.png)
+![EEG Band Discovery](images/images/Floorplan_vertical_racking.svg)
 ![EEG Band Discovery](images/images/Inverter_enhanced.jpg)
 ### Decoding Physical and Cognitive Impacts of Particulate Matter Concentrations at Ultra-Fine Scales
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
