@@ -39,6 +39,9 @@ Used **Matlab** to train over 100 machine learning models which estimated partic
 </td>
 </tr>
 </table>
+<div style="background-color: #007bff; color: white; padding: 15px; border-radius: 5px;">
+  <b>This is a blue text box with white bold text.</b>
+</div>
 ## Talks & Lectures
 - Causality: The new science of an old question - GSP Seminar, Fall 2021
 - Guest Lecture: Dimensionality Reduction - Big Data and Machine Learning for Scientific Discovery (PHYS 5336), Spring 2021
