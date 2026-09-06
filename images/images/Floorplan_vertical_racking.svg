@@ -1,0 +1,269 @@
+<svg viewBox="0 0 1450 950" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo0OWIzMTg1Ni01Y2RjLTQxODUtOTRhZS1jY2YwNjE4NGVkZDYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDRFcmMztSQKbgVHzzhUY4kAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDplN2JmNGM3NS02MDhlLTQzYTEtYWQwOS02OTNhZTVhZDVhNzBscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNosTmGN5Utc+cbzWuTdz14UAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg0igw1tsLAYEdHKFb6Bu3V/v5EwnXNQN/beZZmRp7cCykZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaBtNvNOQOKslxYFf3G3fvnIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBLX8seqfwQ4MLd1k2SbSn5Mn6F1069r1y4iSBOxGLNUWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBizZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjQ5YjMxODU2LTVjZGMtNDE4NS05NGFlLWNjZjA2MTg0ZWRkNi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmY4MDE5ZmMwLTNkMjktNDVjNi1hNjA2LTk0NjA4OTE4NmU2MnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDSKDDW2wsBgR0coVvoG7dX+/kTCdc1A39t5lmZGntwLKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggz5m7nPiBwAVppTmhIiaeYwRa33HWzqMBmaYQQoeBwcKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggOXmJrAshHJqEIxjnL+x/3hqCEs+3HKcvhy0+pKQhsCN0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQD+wBGcqI/f/CLHpsKEpw1wMxEYMVjS6ZXZQw3mCsll3MjkybeM/48vhvZ29spRR6R8/vpIXa2QcXDcJSD3yS7Q=</c2pa:manifest></metadata>
+  <defs>
+    <marker id="dimArrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+    <marker id="dimArrowRev" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#374151"/>
+    </marker>
+    <linearGradient id="rackBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3b6d8f"/>
+      <stop offset="1" stop-color="#1e3f56"/>
+    </linearGradient>
+    <linearGradient id="rackTeal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2ea89a"/>
+      <stop offset="1" stop-color="#1c6e64"/>
+    </linearGradient>
+    <linearGradient id="counterNavy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#345d82"/>
+      <stop offset="1" stop-color="#20405c"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1450" height="950" fill="#ffffff"/>
+
+  <text x="725" y="34" text-anchor="middle" font-size="26" font-weight="700" fill="#1f2937">Retail &amp; Warehouse Floor Plan — Vertical Racking Layout</text>
+  <text x="725" y="56" text-anchor="middle" font-size="14" fill="#6b7280">Redesigned layout · Professional palette · Original configuration</text>
+
+  <!-- Building outer wall -->
+  <rect x="30" y="80" width="1390" height="840" fill="none" stroke="#1f2937" stroke-width="5"/>
+
+  <!-- ===== Top receiving / loading zone ===== -->
+  <rect x="360" y="90" width="1050" height="110" fill="#f1f5f9" stroke="#334155" stroke-width="2"/>
+  <!-- storage bays -->
+  <g stroke="#334155" stroke-width="1.5">
+    <!-- 18 bays -->
+    <!-- computed via loop manually -->
+  </g>
+<rect x="360.0" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="389.2" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">1</text>
+  <rect x="418.3" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="447.5" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">2</text>
+  <rect x="476.7" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="505.8" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">3</text>
+  <rect x="535.0" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="564.2" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">4</text>
+  <rect x="593.3" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="622.5" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">5</text>
+  <rect x="651.7" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="680.8" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">6</text>
+  <rect x="710.0" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="739.2" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">7</text>
+  <rect x="768.3" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="797.5" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">8</text>
+  <rect x="826.7" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="855.8" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">9</text>
+  <rect x="885.0" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="914.2" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">10</text>
+  <rect x="943.3" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="972.5" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">11</text>
+  <rect x="1001.7" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="1030.8" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">12</text>
+  <rect x="1060.0" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="1089.2" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">13</text>
+  <rect x="1118.3" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="1147.5" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">14</text>
+  <rect x="1176.7" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="1205.8" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">15</text>
+  <rect x="1235.0" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="1264.2" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">16</text>
+  <rect x="1293.3" y="90" width="58.3" height="110" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+  <text x="1322.5" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">17</text>
+  <rect x="1351.7" y="90" width="58.3" height="110" fill="#eef2f6" stroke="#334155" stroke-width="1.2"/>
+  <text x="1380.8" y="108" text-anchor="middle" font-size="12" fill="#334155" font-weight="600">18</text>
+
+  <!-- Entrance ramp top-left -->
+  <rect x="70" y="90" width="270" height="110" fill="#e2e8f0" stroke="#334155" stroke-width="2"/>
+  <polygon points="90,145 300,120 300,170" fill="#cbd5e1" stroke="#334155" stroke-width="1.5"/>
+  <text x="205" y="148" text-anchor="middle" font-size="13" fill="#334155" font-weight="600">Receiving Ramp</text>
+  <rect x="40" y="115" width="55" height="45" fill="#ffffff" stroke="#334155" stroke-width="1.6"/>
+  <text x="67" y="140" text-anchor="middle" font-size="11" fill="#334155">Toilet</text>
+
+  <!-- Roller doors -->
+  <rect x="470" y="205" width="120" height="60" fill="#e2e8f0" stroke="#b91c1c" stroke-width="2.4"/>
+  <text x="530" y="240" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Roller Door 1</text>
+  <rect x="330" y="215" width="55" height="70" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+  <rect x="336" y="222" width="20" height="30" fill="#94a3b8" stroke="#334155" stroke-width="1"/>
+  <text x="357" y="298" text-anchor="middle" font-size="10" fill="#334155">Truck</text>
+
+  <rect x="1080" y="205" width="120" height="60" fill="#e2e8f0" stroke="#b91c1c" stroke-width="2.4"/>
+  <text x="1140" y="240" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Roller Door 2</text>
+  <rect x="1220" y="215" width="55" height="70" fill="#ffffff" stroke="#334155" stroke-width="1.5"/>
+  <rect x="1226" y="222" width="20" height="30" fill="#94a3b8" stroke="#334155" stroke-width="1"/>
+  <text x="1247" y="298" text-anchor="middle" font-size="10" fill="#334155">Truck</text>
+
+  <!-- ===== Left front-of-house column ===== -->
+  <!-- Collections/RFC -->
+  <rect x="70" y="300" width="180" height="70" fill="#e2e8f0" stroke="#334155" stroke-width="1.8"/>
+  <text x="160" y="340" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Collections / RFC</text>
+
+  <!-- Cash counters -->
+  <rect x="70" y="380" width="85" height="90" fill="url(#counterNavy)" stroke="#16283a" stroke-width="1.8"/>
+  <text x="112" y="430" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Cash 1</text>
+  <rect x="165" y="380" width="85" height="90" fill="url(#counterNavy)" stroke="#16283a" stroke-width="1.8"/>
+  <text x="207" y="430" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">Cash 2</text>
+
+  <!-- ATM -->
+  <rect x="70" y="480" width="90" height="110" fill="#94a3b8" stroke="#334155" stroke-width="1.8"/>
+  <text x="115" y="530" text-anchor="middle" font-size="13" font-weight="700" fill="#1f2937">ATM</text>
+  <text x="115" y="548" text-anchor="middle" font-size="11" fill="#1f2937">4 sq m</text>
+
+  <!-- Kitchen -->
+  <rect x="170" y="480" width="80" height="55" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="210" y="512" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Kitchen</text>
+
+  <!-- Telesales -->
+  <rect x="170" y="545" width="80" height="60" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="210" y="580" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Telesales</text>
+
+  <!-- Sales Manager -->
+  <rect x="70" y="600" width="180" height="70" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="160" y="640" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Sales Manager</text>
+
+  <!-- Branch Manager -->
+  <rect x="70" y="680" width="180" height="70" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="160" y="720" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Branch Manager</text>
+
+  <!-- Admin / Branch Admin -->
+  <rect x="70" y="760" width="90" height="130" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="115" y="828" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Admin</text>
+  <rect x="170" y="760" width="80" height="130" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="210" y="828" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">Branch Admin</text>
+
+  <!-- Main entrance -->
+  <path d="M35,880 A60,60 0 0,1 95,830" fill="none" stroke="#334155" stroke-width="2"/>
+  <text x="55" y="800" font-size="12" fill="#0891b2" font-weight="600">Main Entrance</text>
+
+  <!-- ===== Right rear-of-house column ===== -->
+  <rect x="1220" y="300" width="160" height="90" fill="#e2e8f0" stroke="#334155" stroke-width="1.8"/>
+  <text x="1300" y="350" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Warehouse Manager</text>
+
+  <rect x="1220" y="400" width="80" height="70" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="1260" y="440" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Kitchen</text>
+  <rect x="1300" y="400" width="80" height="70" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="1340" y="440" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Toilet</text>
+
+  <rect x="1220" y="480" width="80" height="60" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="1260" y="514" text-anchor="middle" font-size="12" font-weight="600" fill="#1f2937">Basin</text>
+  <rect x="1300" y="480" width="80" height="60" fill="#e2e8f0" stroke="#334155" stroke-width="1.6"/>
+  <text x="1340" y="514" text-anchor="middle" font-size="11" font-weight="600" fill="#1f2937">Storage</text>
+
+  <rect x="1220" y="550" width="160" height="330" fill="#f8fafc" stroke="#334155" stroke-width="1.6"/>
+  <text x="1300" y="720" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Bulk Storage</text>
+
+  <!-- ===== Central retail floor — VERTICAL racking ===== -->
+  <text x="785" y="272" text-anchor="middle" font-size="13" font-weight="700" fill="#0f766e">Main Aisle (cross passage)</text>
+  <line x1="360" y1="565" x2="1200" y2="565" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6,5"/>
+
+<rect x="370.0" y="300" width="83.3" height="245" fill="url(#rackTeal)" stroke="#134e4a" stroke-width="1.6" rx="3"/>
+  <line x1="370.0" y1="340.8" x2="453.3" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="381.7" x2="453.3" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="422.5" x2="453.3" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="463.3" x2="453.3" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="504.2" x2="453.3" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="370.0" y="585" width="83.3" height="275" fill="url(#rackTeal)" stroke="#134e4a" stroke-width="1.6" rx="3"/>
+  <line x1="370.0" y1="630.8" x2="453.3" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="676.7" x2="453.3" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="722.5" x2="453.3" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="768.3" x2="453.3" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="370.0" y1="814.2" x2="453.3" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="411.7" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R1</text>
+  <rect x="476.7" y="300" width="83.3" height="245" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="476.7" y1="340.8" x2="560.0" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="381.7" x2="560.0" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="422.5" x2="560.0" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="463.3" x2="560.0" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="504.2" x2="560.0" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="476.7" y="585" width="83.3" height="275" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="476.7" y1="630.8" x2="560.0" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="676.7" x2="560.0" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="722.5" x2="560.0" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="768.3" x2="560.0" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="476.7" y1="814.2" x2="560.0" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="518.3" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R2</text>
+  <rect x="583.3" y="300" width="83.3" height="245" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="583.3" y1="340.8" x2="666.7" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="381.7" x2="666.7" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="422.5" x2="666.7" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="463.3" x2="666.7" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="504.2" x2="666.7" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="583.3" y="585" width="83.3" height="275" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="583.3" y1="630.8" x2="666.7" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="676.7" x2="666.7" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="722.5" x2="666.7" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="768.3" x2="666.7" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="583.3" y1="814.2" x2="666.7" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="625.0" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R3</text>
+  <rect x="690.0" y="300" width="83.3" height="245" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="690.0" y1="340.8" x2="773.3" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="381.7" x2="773.3" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="422.5" x2="773.3" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="463.3" x2="773.3" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="504.2" x2="773.3" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="690.0" y="585" width="83.3" height="275" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="690.0" y1="630.8" x2="773.3" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="676.7" x2="773.3" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="722.5" x2="773.3" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="768.3" x2="773.3" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="690.0" y1="814.2" x2="773.3" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="731.7" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R4</text>
+  <rect x="796.7" y="300" width="83.3" height="245" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="796.7" y1="340.8" x2="880.0" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="381.7" x2="880.0" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="422.5" x2="880.0" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="463.3" x2="880.0" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="504.2" x2="880.0" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="796.7" y="585" width="83.3" height="275" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="796.7" y1="630.8" x2="880.0" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="676.7" x2="880.0" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="722.5" x2="880.0" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="768.3" x2="880.0" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="796.7" y1="814.2" x2="880.0" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="838.3" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R5</text>
+  <rect x="903.3" y="300" width="83.3" height="245" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="903.3" y1="340.8" x2="986.7" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="381.7" x2="986.7" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="422.5" x2="986.7" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="463.3" x2="986.7" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="504.2" x2="986.7" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="903.3" y="585" width="83.3" height="275" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="903.3" y1="630.8" x2="986.7" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="676.7" x2="986.7" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="722.5" x2="986.7" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="768.3" x2="986.7" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="903.3" y1="814.2" x2="986.7" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="945.0" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R6</text>
+  <rect x="1010.0" y="300" width="83.3" height="245" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="1010.0" y1="340.8" x2="1093.3" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="381.7" x2="1093.3" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="422.5" x2="1093.3" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="463.3" x2="1093.3" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="504.2" x2="1093.3" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="1010.0" y="585" width="83.3" height="275" fill="url(#rackBlue)" stroke="#16283a" stroke-width="1.6" rx="3"/>
+  <line x1="1010.0" y1="630.8" x2="1093.3" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="676.7" x2="1093.3" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="722.5" x2="1093.3" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="768.3" x2="1093.3" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1010.0" y1="814.2" x2="1093.3" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="1051.7" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R7</text>
+  <rect x="1116.7" y="300" width="83.3" height="245" fill="url(#rackTeal)" stroke="#134e4a" stroke-width="1.6" rx="3"/>
+  <line x1="1116.7" y1="340.8" x2="1200.0" y2="340.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="381.7" x2="1200.0" y2="381.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="422.5" x2="1200.0" y2="422.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="463.3" x2="1200.0" y2="463.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="504.2" x2="1200.0" y2="504.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <rect x="1116.7" y="585" width="83.3" height="275" fill="url(#rackTeal)" stroke="#134e4a" stroke-width="1.6" rx="3"/>
+  <line x1="1116.7" y1="630.8" x2="1200.0" y2="630.8" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="676.7" x2="1200.0" y2="676.7" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="722.5" x2="1200.0" y2="722.5" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="768.3" x2="1200.0" y2="768.3" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <line x1="1116.7" y1="814.2" x2="1200.0" y2="814.2" stroke="#ffffff" stroke-width="0.8" opacity="0.35"/>
+  <text x="1158.3" y="292" text-anchor="middle" font-size="12" font-weight="700" fill="#1f2937">R8</text>
+  <line x1="30" y1="930" x2="1420" y2="930" stroke="#374151" stroke-width="1.2" marker-start="url(#dimArrowRev)" marker-end="url(#dimArrow)"/>
+  <text x="725" y="945" text-anchor="middle" font-size="12" fill="#374151">Overall building width — 42.5 m</text>
+  <line x1="1435" y1="80" x2="1435" y2="920" stroke="#374151" stroke-width="1.2" marker-start="url(#dimArrowRev)" marker-end="url(#dimArrow)"/>
+  <text x="1442" y="500" font-size="12" fill="#374151" transform="rotate(90 1442 500)">Overall building depth — 25.4 m</text>
+  <line x1="370.0" y1="270" x2="453.3" y2="270" stroke="#374151" stroke-width="1.2" marker-start="url(#dimArrowRev)" marker-end="url(#dimArrow)"/>
+  <text x="411.7" y="262" text-anchor="middle" font-size="11" fill="#374151">Rack bay width</text>
+
+</svg>
