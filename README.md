@@ -26,6 +26,7 @@ The results demonstrated that a design providing 30% attenuation through  <i>L<s
 
 <p align="center">
 <img src="images/images/Electrical.jpg" width=450>
+<p align="center">5kW grid-connected inverter system> <a href=></a> </p>
 </p>
 
 ### Environmental monitoring system for raptor nesting sites 
