@@ -73,7 +73,7 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
 <br> 
 <div style="display: flex; gap: 10px">
   <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Maths 1A, 1B Engineers</b> 
+    <b>Engineering Maths</b> 
   </div>
   <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
     <b>Engineering Drawing</b> 
