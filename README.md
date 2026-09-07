@@ -22,11 +22,13 @@ pneumatic systems during the CPUT 6-week programme, strengthening practical engi
 ### Variable filter design for grid-connected inverter systems
 <a href="reports/EEE4022F_2024_final_report_MCBTIN001_MACEBELE_SAMPATH.pdf">Report</a>
 
-LCL filter designs are extensively documented in the literature, with a design process that typically follows an iterative approach due to the numerous constraints on filter parameters and adherence to IEEE519 guidelines for permissible grid-injected current ripple. Traditional design methodologies for LCL filter components—such as the inverter- side inductor, grid-side inductor, and filter capacitor—often involve maintaining fixed values. This approach fails to account for the variations in load or temperature conditions within the system. This project proposes a variable filter design methodology to optimize the selection of inverter-side and grid-side inductance, thereby satisfying design requirements across diverse applications. These applications include minimizing inductor core volume, reducing power losses, improving total harmonic distortion (THD), and managing temperature variations. The proposed design approach ensures a THD of less than 5%, complying with the IEEE519 standard for all design scenarios.
+LCL filter designs are extensively documented in the literature, with a design process that typically follows an iterative approach due to the numerous constraints on filter parameters and adherence to IEEE519 guidelines for permissible grid-injected current ripple. Traditional design methodologies for LCL filter components—such as the inverter- side inductor, grid-side inductor, and filter capacitor—often involve maintaining fixed values. This approach fails to account for the variations in load or temperature conditions within the system. 
+
+This project proposes a variable filter design methodology to optimize the selection of inverter-side and grid-side inductance, thereby satisfying design requirements across diverse applications. These applications include minimizing inductor core volume, reducing power losses, improving total harmonic distortion (THD), and managing temperature variations. The proposed design approach ensures a THD of less than 5%, complying with the IEEE519 standard for all design scenarios.
 
 <p align="center">
 <img src="images/images/Electrical.jpg" width=450>
-<p align="center color: green"><b>5kW grid-connected inverter system</b></p>
+<p align="center"><b style="color: green;" >5kW grid-connected inverter system</b></p>
 </p>
 
 ### Environmental monitoring system for raptor nesting sites 
