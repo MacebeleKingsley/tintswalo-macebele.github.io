@@ -20,13 +20,14 @@ pneumatic systems during the CPUT 6-week programme, strengthening practical engi
 
 ## Projects
 ### Variable filter design for grid-connected inverter systems
+<a href="reports/EEE4022F_2024_final_report_MCBTIN001_MACEBELE_SAMPATH.pdf">Report</a>
 This project involved the development of a variable LCL filter incorporating magnetic properties to optimise the efficiency and performance of grid-connected inverter systems. An LCL filter was selected, designed, and successfully evaluated using the MATLAB/Simulink model presented below. Several design cases were investigated by varying the inverter-side inductance  <i>L<sub>i</sub></i> and grid-side inductance  <i>L<sub>g</sub></i>, with the inductances allocated according to the level of current-ripple attenuation required from each stage of the filter. 
 
 The results demonstrated that a design providing 30% attenuation through  <i>L<sub>i</sub></i> and 70% through  <i>L<sub>g</sub></i> offered the optimal balance between filter performance and system requirements. This configuration achieved a total harmonic distortion (THD) of 3.16%, which is below the 5% limit specified by IEEE 519. Furthermore, the analysis showed that selecting magnetic materials with a combination of high permeability, high saturation flux density, and low core losses at PWM switching frequencies enables the development of a more compact and efficient filter. Such magnetic properties also improve the filter's ability to maintain effective harmonic attenuation under varying operating and harmonic conditions.
 
 <p align="center">
 <img src="images/images/Electrical.jpg" width=450>
-<p align="center">5kW grid-connected inverter system> <a href=></a> </p>
+<p align="center">5kW grid-connected inverter system></p>
 </p>
 
 ### Environmental monitoring system for raptor nesting sites 
