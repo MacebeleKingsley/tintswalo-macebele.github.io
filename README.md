@@ -26,7 +26,7 @@ LCL filter designs are extensively documented in the literature, with a design p
 
 <p align="center">
 <img src="images/images/Electrical.jpg" width=450>
-<p align="center">5kW grid-connected inverter system></p>
+<p align="center color: green"><b>5kW grid-connected inverter system</b></p>
 </p>
 
 ### Environmental monitoring system for raptor nesting sites 
