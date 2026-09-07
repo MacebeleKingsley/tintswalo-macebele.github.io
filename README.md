@@ -3,9 +3,9 @@ Mechatronics Engineer | Project Engineering | Operations | Systems & Automation
 
 #### Technical Skills: MS Project, MS Excel, MS Dynamics 365, MS Visio, C/C++, Python, Git, KiCad, MATLAB
 
-## Education					       		
-- B.S.c Eng. in Mechatronics	| The University of Cape Town (UCT) (_March 2025_)	 			        		
-- Matric Certificate          | Kwa-Bhekilanga Sec School (_Jan 2019_)
+## Education		
+
+B.S.c Eng. in Mechatronics	| The University of Cape Town (UCT) (_March 2025_)	 			        		
 
 ## Work Experience
 **Project Engineer, Operations -- Graduate @ Motus Aftermarket Parts (_June 2025 - Aug 2026_)**
