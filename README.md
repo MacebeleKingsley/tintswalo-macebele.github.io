@@ -19,6 +19,10 @@ maintaining onsite efficiency for high-turnover stock.
 - Gained hands-on training in arc welding, fitting and turning (lathes), robotics, induction machines and wiring diagrams, and
 pneumatic systems during the CPUT 6-week programme, strengthening practical engineering skills alongside academic theory.
 
+<a href="/assets/resume.pdf" download>
+   <b style="color: green;">Download My Resume</b>
+</a>
+
 ## Projects
 ### Variable filter design for grid-connected inverter systems
 <a href="reports/EEE4022F_2024_final_report_MCBTIN001_MACEBELE_SAMPATH.pdf">Report</a>
