@@ -19,7 +19,7 @@ maintaining onsite efficiency for high-turnover stock.
 - Gained hands-on training in arc welding, fitting and turning (lathes), robotics, induction machines and wiring diagrams, and
 pneumatic systems during the CPUT 6-week programme, strengthening practical engineering skills alongside academic theory.
 
-<a href="/assets/resume.pdf" download>
+<a href="reports/Tintswalo_Resume.pdf" download>
    <b style="color: green;">Download My Resume</b>
 </a>
 
@@ -86,7 +86,7 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
     <b>Research</b> 
   </div>
 </div>
-
+<br>
 ## Connect with Me 
 
 I'm open to opportunities in:
