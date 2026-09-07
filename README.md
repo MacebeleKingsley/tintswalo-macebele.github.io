@@ -87,7 +87,7 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
   </div>
 </div>
 
-### Connect with Me 
+## Connect with Me 
 
 I'm open to opportunities in:
 
