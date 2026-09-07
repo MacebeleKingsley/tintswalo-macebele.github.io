@@ -46,8 +46,11 @@ Developed objective strategy for discovering optimal EEG bands based on signal p
 </p>  
 
 ## Relevant courses
+<div style="display: flex; gap: 10px">
 <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-  <b>Varsity Courses</b>
+  <b>Project Management</b> 
 </div>
-
-
+<div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
+  <b>Computer Science</b> 
+</div>
+</div>
