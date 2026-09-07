@@ -96,3 +96,14 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
 </div>
 
 `Project Management` · `Computer Science` · `Digital Systems` · `Engineering Mathematics` · `Engineering Drawing / SolidWorks` · `Energy Conversion` · `Control Systems` · `Engineering Systems Design` · `Engineering Research`
+
+### Connect with Me 
+
+I'm open to opportunities in:
+
+**Project Engineering · Systems Engineering · Operations Engineering · Mechatronics · Automation · Industrial Engineering · Engineering Technology**
+
+<p align="center">
+<a href="https://www.linkedin.com/in/tintswalo-macebele/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Tintswalo-blue?style=flat-square&logo=linkedin"></a>
+<a href="mailto:macebelekingsley@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-Tintswalo-blue?style=flat-square&logo=gmail"></a>
+</p>
