@@ -8,8 +8,8 @@
 
 ## Work Experience
 **Project Engineer, Operations -- Graduate @ Motus Aftermarket Parts (_June 2025 - Aug 2026_)**
-- Designed end-to-end warehouse layouts and process flows for new sites, applying bin optimisation and strategic product grouping -- improving OTIF performance by 15% and service delivery
-- Improved inventory positioning using Pareto analysis principles, reducing picker travel distance by 20% and increasing
+- Designed end-to-end warehouse layouts and process flows for new sites, applying bin optimisation and strategic product grouping -- improving OTIF performance and service delivery by 15%.
+- Improved inventory positioning using pareto analysis principles & warehouse heatmaps, reducing picker travel distance by 20% and increasing
 accessibility of fast-moving inventory.
 - Managed outsourced pallet storage capacity, coordinating product selection and quantities to optimise space utilisation while
 maintaining onsite efficiency for high-turnover stock.
@@ -20,9 +20,10 @@ pneumatic systems during the CPUT 6-week programme, strengthening practical engi
 
 ## Projects
 ### Variable filter design for grid-connected inverter systems
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+This project involved the development of a variable LCL filter incorporating magnetic properties to optimise the efficiency and performance of grid-connected inverter systems. An LCL filter was selected, designed, and successfully evaluated using the MATLAB/Simulink model presented below. Several design cases were investigated by varying the inverter-side inductance  <i>L<sub>i</sub></i> and grid-side inductance  <i>L<sub>g</sub></i>, with the inductances allocated according to the level of current-ripple attenuation required from each stage of the filter. 
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+The results demonstrated that a design providing 30% attenuation through  <i>L<sub>i</sub></i> and 70% through  <i>L<sub>g</sub></i> offered the optimal balance between filter performance and system requirements. This configuration achieved a total harmonic distortion (THD) of 3.16%, which is below the 5% limit specified by IEEE 519. Furthermore, the analysis showed that selecting magnetic materials with a combination of high permeability, high saturation flux density, and low core losses at PWM switching frequencies enables the development of a more compact and efficient filter. Such magnetic properties also improve the filter's ability to maintain effective harmonic attenuation under varying operating and harmonic conditions.
+
 <p align="center">
 <img src="images/images/Electrical.jpg" width=450>
 </p>
