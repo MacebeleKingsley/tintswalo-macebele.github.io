@@ -59,38 +59,5 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
 </p>  
 
 ## Relevant courses
-<div style="display: flex; gap: 10px">
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Project Management</b> 
-  </div>
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Computer Science</b> 
-  </div>
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Digital Systems</b> 
-  </div>
-</div>
-<br>
-<div style="display: flex; gap: 10px">
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Maths 1A, 1B Engineers</b> 
-  </div>
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Engineering Drawing: Solidworks</b> 
-  </div>
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Energy Conversion</b> 
-  </div>
-</div>
-<br>
-<div style="display: flex; gap: 10px">
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Control Systems</b> 
-  </div>
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Engineering Systems Design</b> 
-  </div>
-  <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
-    <b>Research</b> 
-  </div>
-</div>
+
+`Project Management` · `Computer Science` · `Digital Systems` · `Engineering Mathematics` · `Engineering Drawing / SolidWorks` · `Energy Conversion` · `Control Systems` · `Engineering Systems Design` · `Engineering Research`
