@@ -2,10 +2,49 @@
 ---
 @import "{{ site.theme }}";
 
-// Add your custom minimal overrides here
+// --- Your Custom Minimal CSS Overrides ---
+
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #111111;
   background-color: #ffffff;
-  color: #222222;
-  font-family: monospace;
 }
+
+// Style the wrapper to give it a spacious layout
+.wrapper {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+// Clean up headers
+h1, h2, h3, h4 {
+  color: #000000;
+  font-weight: 600;
+  border-bottom: none;
+}
+
+// Custom minimal portfolio project cards
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.project-card {
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background: #fafafa;
+  transition: border-color 0.2s ease;
+
+  &:hover {
+    border-color: #555555;
+  }
+  
+  h3 { margin-top: 0; font-size: 18px; }
+  p { font-size: 14px; color: #555; margin-bottom: 0; }
+}
+
 
