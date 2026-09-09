@@ -1,0 +1,11 @@
+---
+---
+@import "{{ site.theme }}";
+
+// Add your custom minimal overrides here
+body {
+  background-color: #ffffff;
+  color: #222222;
+  font-family: monospace;
+}
+
