@@ -24,6 +24,30 @@ pneumatic systems during the CPUT 6-week programme, strengthening practical engi
 </a>
 
 ## Projects
+### Warehouse Relocation & Stock Opti-Slot
+
+#### Overview
+I supported the planning and execution of a warehouse relocation project, combining warehouse layout design, inventory analysis, operational planning, and cross-functional project management to establish a new warehouse and improve stock placement.
+
+The project involved analysing three months of sales data to understand inventory movement and applying ABC analysis to classify stock according to demand. This analysis informed the positioning of inventory within the new warehouse, with fast-moving products prioritised for more accessible locations and slower-moving inventory positioned accordingly.
+
+Alongside the engineering work, I acted as the project manager, coordinating stakeholders across IT, Supply Chain, Marketing, and Operations to ensure that the activities required for the relocation were planned, resourced, and completed in sequence.
+
+#### Project Objectives
+- Design and establish a functional layout for the new warehouse.
+- Analyse historical sales data to understand inventory movement.
+- Apply ABC analysis to classify fast-, medium-, and slow-moving stock.
+- Optimise stock locations based on demand and accessibility.
+- Coordinate the physical relocation of inventory.
+- Manage dependencies between IT, Supply Chain, Marketing, and Operations.
+- Develop project timelines, cost estimates, and implementation plans.
+- Monitor progress and resolve project issues through regular stakeholder meetings.
+- Deliver a controlled transition to the new warehouse and support go-live.
+
+<p align="center">
+<img src="images/images/Plan.png" width=450>
+<p align="center"><b style="color: blue;">Warehouse Layout</b></p>
+</p>
 ### Variable filter design for grid-connected inverter systems
 <a href="reports/EEE4022F_2024_final_report_MCBTIN001_MACEBELE_SAMPATH.pdf">Report</a>
 
