@@ -1,10 +1,11 @@
-<h1 style="color: blue;">Project Engineer | UCT Alumnus</h1>
 <div align="center">
-  <!--  You can customize the typing text in the "lines=" section of the URL below -->
-  <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Data+Analyst+%7C+Business+Intelligence;Turning+Data+into+Actionable+Insights;[Your+Specialty+Here];[Your+Experience+or+Tagline]" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=900&height=60&lines=Project+Engineer+%7C+Operations+Analyst+%7C+Continuous+Improvement;Solving+Operational+Problems+With+Data+And+Engineering" alt="Typing SVG" />
 </div>
-Mechatronics Engineer | Project Engineering | Operations | Systems & Automation | PCB Design
+
+## About Me
+I’m a Mechatronics Engineering graduate from the University of Cape Town (UCT) with experience spanning project engineering, warehouse operations, and data-driven process improvement.
+
+I enjoy solving complex engineering and operational problems by combining technical analysis, structured project management, and practical implementation. Other interests include PCB design, systems and automation, embedded systems, and control engineering.
 
 #### Technical Skills: MS Project, MS Excel, MS Dynamics 365, MS Visio, C/C++, Python, Git, KiCad, MATLAB
 
