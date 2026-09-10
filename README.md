@@ -38,28 +38,18 @@ The project involved analysing three months of sales data to understand inventor
 
 Alongside the engineering work, I acted as the project manager, coordinating stakeholders across IT, Supply Chain, Marketing, and Operations to ensure that the activities required for the relocation were planned, resourced, and completed in sequence.
 
-#### Project Objectives
-- Design and establish a functional layout for the new warehouse.
-- Analyse historical sales data to understand inventory movement.
-- Apply ABC analysis to classify fast-, medium-, and slow-moving stock.
-- Optimise stock locations based on demand and accessibility.
-- Coordinate the physical relocation of inventory.
-- Manage dependencies between IT, Supply Chain, Marketing, and Operations.
-- Develop project timelines, cost estimates, and implementation plans.
-- Monitor progress and resolve project issues through regular stakeholder meetings.
-- Deliver a controlled transition to the new warehouse and support go-live.
-
 <p align="center">
 <img src="images/images/Plan.png" width=450>
 <p align="center"><b style="color: blue;">Warehouse Layout</b></p>
 </p>
+
 ### Variable filter design for grid-connected inverter systems
 <a href="reports/EEE4022F_2024_final_report_MCBTIN001_MACEBELE_SAMPATH.pdf">Report</a>
 
 This project proposes a variable filter design methodology to optimize the selection of inverter-side and grid-side inductance, thereby satisfying design requirements across diverse applications. These applications include minimizing inductor core volume, reducing power losses, improving total harmonic distortion (THD), and managing temperature variations. The proposed design approach ensures a THD of less than 5%, complying with the IEEE519 standard for all design scenarios.
 
 <p align="center">
-<img src="images/images/Electrical.jpg" width=450>
+<img src="images/images/Electrical.jpg" width=450 height=300>
 <p align="center"><b style="color: blue;" >5kW grid-connected inverter system</b></p>
 </p>
 
@@ -77,7 +67,7 @@ Developed a wireless sensor network to record environmental conditions near remo
 
 Developed an envirosensing HAT to monitor indoor air quality and display the results in a UI for the end-user. A serial UART, STM32FO microntroller, a gas sensor and temp/humidity sensor was used for data retrieval and transmission. 
 <p align="center">
-<img src="images/images/pcb.jpg" width=400>
+<img src="images/images/pcb.jpg" width=400 height=300>
 <p align="center"><b style="color: blue;" >Air quality monitor PCB</b></p>
 </p>
 
