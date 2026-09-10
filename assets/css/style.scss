@@ -24,16 +24,6 @@
 
 * { box-sizing: border-box; }
 
-body {
-  background-color: var(--paper);
-  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
-  background-size: 24px 24px;
-  color: var(--ink);
-  font-family: "IBM Plex Sans", -apple-system, sans-serif;
-  font-size: 17px;
-  line-height: 1.65;
-  -webkit-font-smoothing: antialiased;
-}
 
 .wrapper {
   max-width: 760px;
