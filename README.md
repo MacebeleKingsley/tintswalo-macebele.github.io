@@ -1,4 +1,4 @@
-# Project Engineer | UCT Alumnus
+<h1 style="color: red;">Project Engineer | UCT Alumnus</h1>
 Mechatronics Engineer | Project Engineering | Operations | Systems & Automation | PCB Design
 
 #### Technical Skills: MS Project, MS Excel, MS Dynamics 365, MS Visio, C/C++, Python, Git, KiCad, MATLAB
