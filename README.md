@@ -77,7 +77,7 @@ Developed an envirosensing HAT to monitor indoor air quality and display the res
 Developed a helicopter PID control MATLAB/Simulink model for simulation and testing and finally an analogue controller circuitry to track the height set point to meet the the system performance requirements. 
 
 <p align="center">
-<img src="images/images/controls.jpg" width=400>
+<img src="images/images/controls.jpg" width=400 height=300>
 <p align="center"><b style="color: blue;" >Analogue controller</b></p>
 </p>  
 
