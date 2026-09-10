@@ -1,4 +1,4 @@
-# Project Engineer
+# Project Engineer | UCT Alumnus
 Mechatronics Engineer | Project Engineering | Operations | Systems & Automation | PCB Design
 
 #### Technical Skills: MS Project, MS Excel, MS Dynamics 365, MS Visio, C/C++, Python, Git, KiCad, MATLAB
@@ -25,8 +25,6 @@ pneumatic systems during the CPUT 6-week programme, strengthening practical engi
 
 ## Projects
 ### Warehouse Relocation & Stock Opti-Slot
-
-#### Overview
 I supported the planning and execution of a warehouse relocation project, combining warehouse layout design, inventory analysis, operational planning, and cross-functional project management to establish a new warehouse and improve stock placement.
 
 The project involved analysing three months of sales data to understand inventory movement and applying ABC analysis to classify stock according to demand. This analysis informed the positioning of inventory within the new warehouse, with fast-moving products prioritised for more accessible locations and slower-moving inventory positioned accordingly.
