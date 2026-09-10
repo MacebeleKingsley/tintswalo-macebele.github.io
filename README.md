@@ -1,16 +1,16 @@
-<div align="center">
+<div >
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=36&pause=1000&color=2F5F7A&center=true&vCenter=true&width=500&height=100&lines=Project+Engineer;Operations+Analyst;Continuous+Improvement;Data+%26+Engineering" alt="Typing SVG" />
 </div>
 
 
-## About Me
+<h2 style="color: #2F5F7A;">About Me</h2>
 I’m a Mechatronics Engineering graduate from the University of Cape Town (UCT) with experience spanning project engineering, warehouse operations, and data-driven process improvement.
 
 I enjoy solving complex engineering and operational problems by combining technical analysis, structured project management, and practical implementation. Other interests include PCB design, systems and automation, embedded systems, and control engineering.
 
 #### Technical Skills: MS Project, MS Excel, MS Dynamics 365, MS Visio, C/C++, Python, Git, KiCad, MATLAB
 
-## Education		
+<h2 style="color: #2F5F7A;">Education</h2>
 
 B.S.c Eng. in Mechatronics	| The University of Cape Town (UCT) (_March 2025_)	 			        		
 
@@ -30,7 +30,7 @@ pneumatic systems during the CPUT 6-week programme, strengthening practical engi
    <b style="color: green;">Download My Resume</b>
 </a>
 
-## Projects
+<h2 style="color: #2F5F7A;">Projects</h2>
 ### Warehouse Relocation & Stock Opti-Slot
 I supported the planning and execution of a warehouse relocation project, combining warehouse layout design, inventory analysis, operational planning, and cross-functional project management to establish a new warehouse and improve stock placement.
 
@@ -91,7 +91,7 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
 <p align="center"><b style="color: blue;" >Analogue controller</b></p>
 </p>  
 
-## Relevant courses
+<h2 style="color: #2F5F7A;">Relevant courses</h2>
 <div style="display: flex; gap: 10px">
   <div style="background-color: #007bff; color: white; padding: 5px 12px; border-radius: 5px; display: inline-block;">
     <b>Project Management</b> 
@@ -116,7 +116,7 @@ Developed a helicopter PID control MATLAB/Simulink model for simulation and test
   </div>
 </div>
 <br>
-## Connect with Me 
+<h2 style="color: #2F5F7A;">Connect with Me</h2>
 
 I'm open to opportunities in:
 
