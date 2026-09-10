@@ -1,0 +1,213 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==========================================================================
+   Custom overrides — engineering-documentation aesthetic
+   Fonts: IBM Plex Sans (body/headings) + IBM Plex Mono (labels/tags/meta)
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --ink:        #1c2430;
+  --paper:      #f5f3ee;
+  --paper-alt:  #eae6da;
+  --rule:       #d7d1c2;
+  --blue:       #2f5f7a;
+  --copper:     #b5652c;
+}
+
+/* -------------------- base -------------------- */
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+::selection { background: var(--copper); color: var(--paper); }
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(47, 95, 122, 0.35);
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover { border-color: var(--blue); }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--copper);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* -------------------- header -------------------- */
+
+header {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 28px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 34px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 6px;
+}
+
+header h1 a {
+  color: var(--ink);
+  border-bottom: none;
+}
+
+header p {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 14px;
+  color: var(--blue);
+  margin: 0;
+}
+
+/* the theme's optional download list — repurposed as plain text links, not boxed buttons */
+.downloads { display: none; }
+
+/* -------------------- headings & body copy -------------------- */
+
+h2 {
+  font-size: 21px;
+  font-weight: 600;
+  margin: 48px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
+}
+
+h3 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 28px 0 8px;
+}
+
+p { margin: 0 0 16px; }
+
+strong { font-weight: 600; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 40px 0;
+}
+
+ul, ol { padding-left: 22px; margin: 0 0 16px; }
+li { margin-bottom: 6px; }
+
+/* italicised em-dates under job titles read like technical revision notes */
+em { color: #5a5648; font-style: italic; }
+
+code {
+  font-family: "IBM Plex Mono", monospace;
+  background: var(--paper-alt);
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.88em;
+}
+
+/* -------------------- project figures -------------------- */
+/* your <img>+caption pairs, rendered like labeled engineering figures */
+
+p > img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  padding: 6px;
+  background: #fff;
+  margin: 4px auto 4px;
+}
+
+p[align="center"] {
+  text-align: left; /* undo centered inline alignment for a document feel */
+}
+
+p[align="center"] b {
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--blue) !important;
+  margin-top: 6px;
+}
+
+/* prefix figure captions automatically */
+p[align="center"] b::before {
+  content: "Fig — ";
+  color: var(--copper);
+}
+
+/* -------------------- skill tags / course pills -------------------- */
+/* overrides the inline background-color:#007bff pill styling */
+
+div[style*="background-color"] {
+  background: transparent !important;
+  color: var(--ink) !important;
+  border: 1px solid var(--rule) !important;
+  border-radius: 3px !important;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 5px 10px !important;
+}
+
+/* -------------------- resume / contact badges -------------------- */
+
+a[href*="download"] b,
+a[href^="mailto"] b {
+  color: var(--copper) !important;
+}
+
+p img[alt="LinkedIn"],
+p img[alt="Email"] {
+  border: none;
+  padding: 0;
+  background: transparent;
+  display: inline-block;
+  margin: 0 6px 0 0;
+  filter: grayscale(15%);
+}
+
+/* -------------------- footer -------------------- */
+
+footer {
+  margin-top: 64px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  color: #736f61;
+}
+
+/* -------------------- responsive -------------------- */
+
+@media (max-width: 640px) {
+  .wrapper { padding: 36px 18px 60px; }
+  header h1 { font-size: 27px; }
+  body { font-size: 16px; }
+}
