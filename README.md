@@ -1,5 +1,5 @@
 # Project Engineer
-Mechatronics Engineer | Project Engineering | Operations | Systems & Automation
+Mechatronics Engineer | Project Engineering | Operations | Systems & Automation | PCB Design
 
 #### Technical Skills: MS Project, MS Excel, MS Dynamics 365, MS Visio, C/C++, Python, Git, KiCad, MATLAB
 
@@ -47,7 +47,7 @@ Alongside the engineering work, I acted as the project manager, coordinating sta
 
 <p align="center">
 <img src="images/images/Plan.png" width=450>
-<p align="center"><b style="color: blue;" >Warehouse Layout</b></p>
+<p align="center"><b style="color: blue;">Warehouse Layout</b></p>
 </p>
 
 ### Variable filter design for grid-connected inverter systems
