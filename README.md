@@ -8,7 +8,7 @@ I’m a Mechatronics Engineering graduate from the University of Cape Town (UCT)
 
 I enjoy solving complex engineering and operational problems by combining technical analysis, structured project management, and practical implementation. Other interests include PCB design, systems and automation, embedded systems, and control engineering.
 
-<h4><b>Technical Skills:</b> MS Project, MS Excel, MS D365 ERP, MS Visio, C/C++, Python, Git, KiCad, MATLAB</h4>
+<h4><b>Technical Skills:</b></h4> MS Project, MS Excel, MS D365 ERP, MS Visio, C/C++, Python, Git, KiCad, MATLAB
 
 <h2 style="color: #2F5F7A;">Education</h2>
 
