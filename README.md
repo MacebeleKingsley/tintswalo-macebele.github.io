@@ -1,6 +1,7 @@
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=900&height=60&lines=Project+Engineer+%7C+Operations+Analyst+%7C+Continuous+Improvement;Solving+Operational+Problems+With+Data+And+Engineering" alt="Typing SVG" />
+<div>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=1000&height=80&lines=Project+Engineer+%7C+Operations+Analyst;Continuous+Improvement+%7C+Data+%26+Engineering" alt="Typing SVG" />
 </div>
+
 
 ## About Me
 I’m a Mechatronics Engineering graduate from the University of Cape Town (UCT) with experience spanning project engineering, warehouse operations, and data-driven process improvement.
