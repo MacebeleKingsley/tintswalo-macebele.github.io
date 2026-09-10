@@ -67,7 +67,7 @@ Developed a wireless sensor network to record environmental conditions near remo
 
 Developed an envirosensing HAT to monitor indoor air quality and display the results in a UI for the end-user. A serial UART, STM32FO microntroller, a gas sensor and temp/humidity sensor was used for data retrieval and transmission. 
 <p align="center">
-<img src="images/images/pcb.jpg" width=400 height=300>
+<img src="images/images/pcb.jpg" width=450 height=300>
 <p align="center"><b style="color: blue;" >Air quality monitor PCB</b></p>
 </p>
 
@@ -77,7 +77,7 @@ Developed an envirosensing HAT to monitor indoor air quality and display the res
 Developed a helicopter PID control MATLAB/Simulink model for simulation and testing and finally an analogue controller circuitry to track the height set point to meet the the system performance requirements. 
 
 <p align="center">
-<img src="images/images/controls.jpg" width=400 height=300>
+<img src="images/images/controls.jpg" width=450 height=300>
 <p align="center"><b style="color: blue;" >Analogue controller</b></p>
 </p>  
 
