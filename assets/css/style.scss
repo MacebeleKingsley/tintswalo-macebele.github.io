@@ -17,6 +17,7 @@
   --rule:       #d7d1c2;
   --blue:       #2f5f7a;
   --copper:     #b5652c;
+  --dot:        rgba(28, 36, 48, 0.06);
 }
 
 /* -------------------- base -------------------- */
@@ -24,7 +25,9 @@
 * { box-sizing: border-box; }
 
 body {
-  background: var(--paper);
+  background-color: var(--paper);
+  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
+  background-size: 24px 24px;
   color: var(--ink);
   font-family: "IBM Plex Sans", -apple-system, sans-serif;
   font-size: 17px;
@@ -55,16 +58,30 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; animation: none !important; }
-}
-
 /* -------------------- header -------------------- */
 
 header {
-  border-bottom: 1px solid var(--rule);
-  padding-bottom: 28px;
+  position: relative;
+  padding-bottom: 32px;
   margin-bottom: 40px;
+}
+
+/* ruler-tick underline — a small nod to technical drawing scales */
+header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 6px;
+  background-image: repeating-linear-gradient(
+    to right,
+    var(--ink) 0,
+    var(--ink) 1px,
+    transparent 1px,
+    transparent 9px
+  );
+  opacity: 0.45;
 }
 
 header h1 {
@@ -86,7 +103,6 @@ header p {
   margin: 0;
 }
 
-/* the theme's optional download list — repurposed as plain text links, not boxed buttons */
 .downloads { display: none; }
 
 /* -------------------- headings & body copy -------------------- */
@@ -106,7 +122,6 @@ h3 {
 }
 
 p { margin: 0 0 16px; }
-
 strong { font-weight: 600; }
 
 hr {
@@ -118,7 +133,6 @@ hr {
 ul, ol { padding-left: 22px; margin: 0 0 16px; }
 li { margin-bottom: 6px; }
 
-/* italicised em-dates under job titles read like technical revision notes */
 em { color: #5a5648; font-style: italic; }
 
 code {
@@ -130,7 +144,6 @@ code {
 }
 
 /* -------------------- project figures -------------------- */
-/* your <img>+caption pairs, rendered like labeled engineering figures */
 
 p > img {
   display: block;
@@ -141,11 +154,17 @@ p > img {
   padding: 6px;
   background: #fff;
   margin: 4px auto 4px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
-p[align="center"] {
-  text-align: left; /* undo centered inline alignment for a document feel */
+/* the one interactive flourish tied to an actual user action: hovering a figure */
+p > img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(28, 36, 48, 0.14);
+  border-color: var(--blue);
 }
+
+p[align="center"] { text-align: left; }
 
 p[align="center"] b {
   display: block;
@@ -156,14 +175,19 @@ p[align="center"] b {
   margin-top: 6px;
 }
 
-/* prefix figure captions automatically */
 p[align="center"] b::before {
   content: "Fig — ";
   color: var(--copper);
 }
 
-/* -------------------- skill tags / course pills -------------------- */
-/* overrides the inline background-color:#007bff pill styling */
+/* -------------------- relevant courses: the one animated moment -------------------- */
+/* overrides the inline background-color:#007bff pill styling and
+   gives the tags a single orchestrated entrance on page load */
+
+@keyframes tagIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 
 div[style*="background-color"] {
   background: transparent !important;
@@ -174,7 +198,26 @@ div[style*="background-color"] {
   font-size: 12.5px;
   font-weight: 500;
   padding: 5px 10px !important;
+  cursor: default;
+  opacity: 0;
+  animation: tagIn 0.45s ease forwards;
+  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
 }
+
+div[style*="background-color"]:hover {
+  background: var(--ink) !important;
+  color: var(--paper) !important;
+  border-color: var(--ink) !important;
+  transform: translateY(-2px);
+}
+
+/* stagger each row — first flex row, then the second, timed to read left-to-right */
+div[style*="gap: 10px"]:nth-of-type(1) div[style*="background-color"]:nth-child(1) { animation-delay: 0.05s; }
+div[style*="gap: 10px"]:nth-of-type(1) div[style*="background-color"]:nth-child(2) { animation-delay: 0.12s; }
+div[style*="gap: 10px"]:nth-of-type(1) div[style*="background-color"]:nth-child(3) { animation-delay: 0.19s; }
+div[style*="gap: 10px"]:nth-of-type(2) div[style*="background-color"]:nth-child(1) { animation-delay: 0.28s; }
+div[style*="gap: 10px"]:nth-of-type(2) div[style*="background-color"]:nth-child(2) { animation-delay: 0.35s; }
+div[style*="gap: 10px"]:nth-of-type(2) div[style*="background-color"]:nth-child(3) { animation-delay: 0.42s; }
 
 /* -------------------- resume / contact badges -------------------- */
 
@@ -191,6 +234,12 @@ p img[alt="Email"] {
   display: inline-block;
   margin: 0 6px 0 0;
   filter: grayscale(15%);
+  transition: transform 0.15s ease;
+}
+
+p img[alt="LinkedIn"]:hover,
+p img[alt="Email"]:hover {
+  transform: translateY(-2px);
 }
 
 /* -------------------- footer -------------------- */
@@ -202,6 +251,13 @@ footer {
   font-family: "IBM Plex Mono", monospace;
   font-size: 12.5px;
   color: #736f61;
+}
+
+/* -------------------- accessibility: respect reduced motion -------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+  div[style*="background-color"] { opacity: 1 !important; transform: none !important; }
 }
 
 /* -------------------- responsive -------------------- */
