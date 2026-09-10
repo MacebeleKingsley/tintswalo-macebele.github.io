@@ -1,1341 +1,205 @@
+---
+---
+
 @import "{{ site.theme }}";
 
 /* ==========================================================================
-ENGINEERING PORTFOLIO — COMPLETE DESIGN
-========================================================================== */
+   Custom overrides — engineering-documentation aesthetic
+   Fonts: IBM Plex Sans (body/headings) + IBM Plex Mono (labels/tags/meta)
+   ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
-/* ==========================================================================
-DESIGN TOKENS
-========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 :root {
---ink: #16202a;
---ink-2: #273642;
---ink-3: #52616d;
-
---paper: #f4f1e8;
---paper-2: #ebe6d9;
---paper-3: #fffdf8;
-
---line: #d4cec0;
---line-dark: #aaa293;
-
---teal: #087f8c;
---teal-dark: #075e68;
-
---coral: #d35b3e;
---gold: #d9a83e;
-
---white: #ffffff;
-
---shadow-1: 0 4px 14px rgba(22, 32, 42, 0.07);
---shadow-2: 0 14px 35px rgba(22, 32, 42, 0.12);
---shadow-3: 0 25px 65px rgba(22, 32, 42, 0.17);
-
---radius: 5px;
+  --ink:        #1c2430;
+  --paper:      #f5f3ee;
+  --paper-alt:  #eae6da;
+  --rule:       #d7d1c2;
+  --blue:       #2f5f7a;
+  --copper:     #b5652c;
+  --dot:        rgba(28, 36, 48, 0.06);
 }
 
-/* ==========================================================================
-RESET
-========================================================================== */
+/* -------------------- base -------------------- */
 
-{
-box-sizing: border-box;
-}
-html {
-scroll-behavior: smooth;
-}
 
-body {
-margin: 0;
 
-background-color: var(--paper);
-
-color: var(--ink);
-
-font-family:
-"DM Sans",
--apple-system,
-BlinkMacSystemFont,
-"Segoe UI",
-sans-serif;
-
-font-size: 17px;
-line-height: 1.7;
-
--webkit-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
-}
-
-/* ==========================================================================
-TECHNICAL GRID BACKGROUND
-========================================================================== */
-
-body::before {
-content: "";
-
-position: fixed;
-inset: 0;
-
-z-index: -2;
-
-pointer-events: none;
-
-background-image:
-linear-gradient(
-rgba(22, 32, 42, 0.035) 1px,
-transparent 1px
-),
-linear-gradient(
-90deg,
-rgba(22, 32, 42, 0.035) 1px,
-transparent 1px
-);
-
-background-size: 48px 48px;
-}
-
-body::after {
-content: "";
-
-position: fixed;
-
-left: 50%;
-top: 0;
-bottom: 0;
-
-width: 1px;
-
-z-index: -1;
-
-pointer-events: none;
-
-background:
-linear-gradient(
-to bottom,
-transparent,
-rgba(8, 127, 140, 0.09),
-transparent
-);
-}
-
-/* ==========================================================================
-SELECTION
-========================================================================== */
-
-::selection {
-background: var(--coral);
-color: var(--white);
-}
-
-/* ==========================================================================
-MAIN CONTAINER
-========================================================================== */
-
-.wrapper {
-width: min(100% - 48px, 920px);
-
-margin: 0 auto;
-
-padding: 70px 0 100px;
-}
-
-/* ==========================================================================
-LINKS
-========================================================================== */
 
 a {
-color: var(--teal);
-
-text-decoration: none;
-
-border-bottom:
-1px solid rgba(8, 127, 140, 0.35);
-
-transition:
-color 0.2s ease,
-border-color 0.2s ease;
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(47, 95, 122, 0.35);
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
-a:hover {
-color: var(--coral);
-
-border-color: var(--coral);
-}
+a:hover { border-color: var(--blue); }
 
 a:focus-visible,
 button:focus-visible {
-outline:
-2px solid var(--coral);
-
-outline-offset: 4px;
+  outline: 2px solid var(--copper);
+  outline-offset: 2px;
 }
 
-/* ==========================================================================
-HEADER / HERO
-========================================================================== */
 
-header {
-position: relative;
-
-margin-bottom: 58px;
-
-padding:
-34px
-34px
-38px;
-
-color: var(--paper);
-
-background:
-linear-gradient(
-135deg,
-#17232d 0%,
-#1c2c38 60%,
-#123f47 100%
-);
-
-border-radius: 6px;
-
-overflow: hidden;
-
-box-shadow: var(--shadow-3);
-}
-
-/* Header technical grid */
-
-header::before {
-content: "";
-
-position: absolute;
-inset: 0;
-
-pointer-events: none;
-
-opacity: 0.18;
-
-background-image:
-linear-gradient(
-rgba(255,255,255,0.12) 1px,
-transparent 1px
-),
-linear-gradient(
-90deg,
-rgba(255,255,255,0.12) 1px,
-transparent 1px
-);
-
-background-size: 28px 28px;
-}
-
-/* Header accent ruler */
-
-header::after {
-content: "";
-
-position: absolute;
-
-left: 34px;
-right: 34px;
-bottom: 17px;
-
-height: 2px;
-
-background:
-linear-gradient(
-90deg,
-var(--coral) 0 75px,
-var(--teal) 75px 180px,
-rgba(255,255,255,0.2) 180px 100%
-);
-}
-
-/* Keep header content above grid */
-
-header > * {
-position: relative;
-z-index: 1;
-}
-
-/* Header label */
-
-header p:first-of-type::before {
-content: "ENGINEERING / PORTFOLIO";
-
-display: block;
-
-margin-bottom: 18px;
-
-color: #62c8d1;
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 10px;
-font-weight: 500;
-
-letter-spacing: 0.18em;
-
-text-transform: uppercase;
-}
-
-header h1 {
-max-width: 800px;
-
-margin: 0;
-
-color: #f8f5ec;
-
-font-family:
-"Space Grotesk",
-sans-serif;
-
-font-size:
-clamp(40px, 7vw, 68px);
-
-font-weight: 600;
-
-letter-spacing: -0.055em;
-
-line-height: 0.98;
-}
-
-header h1 a {
-color: inherit;
-
-border: none;
-}
-
-header h1 a:hover {
-color: #75d3d9;
-}
-
-header p {
-max-width: 680px;
-
-margin:
-20px
-0
-0;
-
-color: #b9c5ca;
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 12px;
-
-line-height: 1.7;
-}
-
-/* Hide GitHub Pages download controls */
-
-.downloads {
-display: none;
-}
-
-/* ==========================================================================
-HEADINGS
-========================================================================== */
+/* -------------------- headings & body copy -------------------- */
 
 h2 {
-position: relative;
-
-margin:
-72px
-0
-22px;
-
-padding:
-0
-0
-13px;
-
-color: var(--ink);
-
-font-family:
-"Space Grotesk",
-sans-serif;
-
-font-size: 27px;
-font-weight: 600;
-
-letter-spacing: -0.035em;
-
-border-bottom:
-1px solid var(--line);
-}
-
-h2::before {
-content: "//";
-
-display: inline-block;
-
-margin-right: 10px;
-
-color: var(--coral);
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 14px;
-
-letter-spacing: 0;
-}
-
-h2::after {
-content: "";
-
-position: absolute;
-
-left: 0;
-bottom: -1px;
-
-width: 54px;
-height: 2px;
-
-background: var(--teal);
+  font-size: 21px;
+  font-weight: 600;
+  margin: 48px 0 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--rule);
 }
 
 h3 {
-margin:
-34px
-0
-9px;
-
-color: var(--ink-2);
-
-font-family:
-"Space Grotesk",
-sans-serif;
-
-font-size: 18px;
-font-weight: 600;
-
-letter-spacing: -0.015em;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 28px 0 8px;
 }
 
-p {
-margin:
-0
-0
-18px;
-}
-
-strong {
-color: var(--ink);
-
-font-weight: 700;
-}
-
-em {
-color: var(--ink-3);
-
-font-style: italic;
-}
-
-/* ==========================================================================
-HORIZONTAL RULE
-========================================================================== */
+p { margin: 0 0 16px; }
+strong { font-weight: 600; }
 
 hr {
-height: 1px;
-
-margin:
-58px
-0;
-
-border: 0;
-
-background:
-linear-gradient(
-90deg,
-var(--coral) 0 35px,
-var(--teal) 35px 95px,
-var(--line) 95px 100%
-);
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 40px 0;
 }
 
-/* ==========================================================================
-LISTS
-========================================================================== */
+ul, ol { padding-left: 22px; margin: 0 0 16px; }
+li { margin-bottom: 6px; }
 
-ul,
-ol {
-margin:
-0
-0
-22px;
-
-padding-left: 27px;
-}
-
-li {
-margin-bottom: 8px;
-}
-
-li::marker {
-color: var(--coral);
-
-font-weight: 600;
-}
-
-/* ==========================================================================
-INLINE CODE
-========================================================================== */
+em { color: #5a5648; font-style: italic; }
 
 code {
-padding:
-3px
-7px;
-
-color: var(--teal-dark);
-
-background:
-var(--paper-2);
-
-border:
-1px solid var(--line);
-
-border-radius: 3px;
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 0.82em;
+  font-family: "IBM Plex Mono", monospace;
+  background: var(--paper-alt);
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.88em;
 }
 
-/* ==========================================================================
-CODE BLOCKS
-========================================================================== */
-
-pre {
-position: relative;
-
-margin:
-28px
-0;
-
-padding:
-22px
-24px;
-
-overflow-x: auto;
-
-color: #dce7e8;
-
-background:
-#18242d;
-
-border:
-1px solid #2c3d47;
-
-border-radius: 5px;
-
-box-shadow:
-var(--shadow-2);
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 13px;
-
-line-height: 1.65;
-}
-
-pre::before {
-content: "CODE";
-
-display: block;
-
-margin-bottom: 12px;
-
-color: #61c4cb;
-
-font-size: 9px;
-
-letter-spacing: 0.16em;
-}
-
-/* ==========================================================================
-NOTES / BLOCKQUOTES
-========================================================================== */
-
-blockquote {
-position: relative;
-
-margin:
-30px
-0;
-
-padding:
-20px
-24px;
-
-color:
-var(--ink-3);
-
-background:
-rgba(255,255,255,0.42);
-
-border-left:
-3px solid var(--teal);
-
-box-shadow:
-0 3px 12px rgba(22,32,42,0.035);
-}
-
-blockquote::before {
-content: "FIELD NOTE";
-
-display: block;
-
-margin-bottom: 7px;
-
-color: var(--teal);
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 9px;
-
-font-weight: 500;
-
-letter-spacing: 0.15em;
-}
-
-/* ==========================================================================
-PROJECT FIGURES / IMAGES
-========================================================================== */
-
+/* -------------------- project figures -------------------- */
 p > img {
-display: block;
-
-width: 100%;
-max-width: 100%;
-height: auto;
-
-margin:
-12px
-auto
-14px;
-
-padding: 9px;
-
-background:
-var(--paper-3);
-
-border:
-1px solid var(--line);
-
-border-radius: 4px;
-
-box-shadow:
-var(--shadow-1);
-
-transition:
-transform 0.35s cubic-bezier(.2,.7,.2,1),
-box-shadow 0.35s ease,
-border-color 0.25s ease;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  padding: 6px;
+  background: #fff;
+  margin: 4px auto 4px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
+/* the one interactive flourish tied to an actual user action: hovering a figure */
 p > img:hover {
-transform:
-translateY(-7px)
-scale(1.005);
-
-border-color:
-var(--teal);
-
-box-shadow:
-var(--shadow-3);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(28, 36, 48, 0.14);
+  border-color: var(--blue);
 }
 
-/* ==========================================================================
-FIGURE CAPTIONS
-========================================================================== */
-
-p[align="center"] {
-text-align: left;
-}
+p[align="center"] { text-align: left; }
 
 p[align="center"] b {
-display: block;
-
-margin-top: 8px;
-
-color:
-var(--ink-3) !important;
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 10px;
-
-font-weight: 500;
-
-letter-spacing: 0.06em;
-
-text-transform: uppercase;
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--blue) !important;
+  margin-top: 6px;
 }
 
 p[align="center"] b::before {
-content: "FIG. ";
-
-color:
-var(--coral);
+  content: "Fig — ";
+  color: var(--copper);
 }
 
-/* ==========================================================================
-COURSE / SKILL TAGS
-========================================================================== */
+/* -------------------- relevant courses: the one animated moment -------------------- */
+/* overrides the inline background-color:#007bff pill styling and
+   gives the tags a single orchestrated entrance on page load */
 
 @keyframes tagIn {
-
-from {
-opacity: 0;
-
-transform:
-  translateY(12px)
-  scale(0.97);
-
-}
-
-to {
-opacity: 1;
-
-transform:
-  translateY(0)
-  scale(1);
-
-}
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 div[style*="background-color"] {
-position: relative;
-
-display: inline-flex;
-
-align-items: center;
-
-min-height: 31px;
-
-padding:
-6px
-12px !important;
-
-color:
-var(--ink) !important;
-
-background:
-rgba(255,255,255,0.5) !important;
-
-border:
-1px solid var(--line) !important;
-
-border-radius:
-4px !important;
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 11px;
-
-font-weight: 500;
-
-letter-spacing: 0.01em;
-
-cursor: default;
-
-opacity: 0;
-
-animation:
-tagIn
-0.5s
-cubic-bezier(.2,.7,.2,1)
-forwards;
-
-box-shadow:
-0 2px 5px rgba(22,32,42,0.04);
-
-transition:
-color 0.2s ease,
-background 0.2s ease,
-border-color 0.2s ease,
-transform 0.2s ease,
-box-shadow 0.2s ease;
-}
-
-div[style*="background-color"]::before {
-content: "";
-
-width: 5px;
-height: 5px;
-
-flex: 0 0 5px;
-
-margin-right: 8px;
-
-background:
-var(--coral);
-
-border-radius: 50%;
-
-box-shadow:
-0 0 0 3px rgba(211,91,62,0.08);
-
-transition:
-background 0.2s ease,
-box-shadow 0.2s ease;
+  background: transparent !important;
+  color: var(--ink) !important;
+  border: 1px solid var(--rule) !important;
+  border-radius: 3px !important;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  font-weight: 500;
+  padding: 5px 10px !important;
+  cursor: default;
+  opacity: 0;
+  animation: tagIn 0.45s ease forwards;
+  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
 }
 
 div[style*="background-color"]:hover {
-color:
-var(--paper) !important;
-
-background:
-var(--ink) !important;
-
-border-color:
-var(--ink) !important;
-
-transform:
-translateY(-4px);
-
-box-shadow:
-var(--shadow-1);
+  background: var(--ink) !important;
+  color: var(--paper) !important;
+  border-color: var(--ink) !important;
+  transform: translateY(-2px);
 }
 
-div[style*="background-color"]:hover::before {
-background:
-var(--gold);
+/* stagger each row — first flex row, then the second, timed to read left-to-right */
+div[style*="gap: 10px"]:nth-of-type(1) div[style*="background-color"]:nth-child(1) { animation-delay: 0.05s; }
+div[style*="gap: 10px"]:nth-of-type(1) div[style*="background-color"]:nth-child(2) { animation-delay: 0.12s; }
+div[style*="gap: 10px"]:nth-of-type(1) div[style*="background-color"]:nth-child(3) { animation-delay: 0.19s; }
+div[style*="gap: 10px"]:nth-of-type(2) div[style*="background-color"]:nth-child(1) { animation-delay: 0.28s; }
+div[style*="gap: 10px"]:nth-of-type(2) div[style*="background-color"]:nth-child(2) { animation-delay: 0.35s; }
+div[style*="gap: 10px"]:nth-of-type(2) div[style*="background-color"]:nth-child(3) { animation-delay: 0.42s; }
 
-box-shadow:
-0 0 0 3px rgba(217,168,62,0.12);
-}
-
-/* ==========================================================================
-TAG ANIMATION STAGGER
-========================================================================== */
-
-div[style*="gap: 10px"]:nth-of-type(1)
-div[style*="background-color"]:nth-child(1) {
-animation-delay: 0.05s;
-}
-
-div[style*="gap: 10px"]:nth-of-type(1)
-div[style*="background-color"]:nth-child(2) {
-animation-delay: 0.12s;
-}
-
-div[style*="gap: 10px"]:nth-of-type(1)
-div[style*="background-color"]:nth-child(3) {
-animation-delay: 0.19s;
-}
-
-div[style*="gap: 10px"]:nth-of-type(2)
-div[style*="background-color"]:nth-child(1) {
-animation-delay: 0.26s;
-}
-
-div[style*="gap: 10px"]:nth-of-type(2)
-div[style*="background-color"]:nth-child(2) {
-animation-delay: 0.33s;
-}
-
-div[style*="gap: 10px"]:nth-of-type(2)
-div[style*="background-color"]:nth-child(3) {
-animation-delay: 0.40s;
-}
-
-/* ==========================================================================
-RESUME / CONTACT
-========================================================================== */
+/* -------------------- resume / contact badges -------------------- */
 
 a[href*="download"] b,
 a[href^="mailto"] b {
-display: inline-block;
-
-color:
-var(--coral) !important;
-
-font-family:
-"DM Mono",
-monospace;
-
-font-weight: 500;
-
-border-bottom:
-1px solid rgba(211,91,62,0.35);
-
-transition:
-color 0.2s ease,
-transform 0.2s ease;
+  color: var(--copper) !important;
 }
-
-a[href*="download"] b:hover,
-a[href^="mailto"] b:hover {
-color:
-var(--teal) !important;
-
-transform:
-translateX(4px);
-}
-
-/* ==========================================================================
-SOCIAL ICONS
-========================================================================== */
 
 p img[alt="LinkedIn"],
 p img[alt="Email"] {
-display: inline-block;
-
-width: auto;
-max-width: 34px;
-height: auto;
-
-margin:
-4px
-8px
-0
-0;
-
-padding: 7px;
-
-background:
-var(--paper-3);
-
-border:
-1px solid var(--line);
-
-border-radius: 4px;
-
-filter:
-grayscale(100%);
-
-box-shadow: none;
-
-transition:
-filter 0.2s ease,
-transform 0.2s ease,
-border-color 0.2s ease,
-box-shadow 0.2s ease;
+  border: none;
+  padding: 0;
+  background: transparent;
+  display: inline-block;
+  margin: 0 6px 0 0;
+  filter: grayscale(15%);
+  transition: transform 0.15s ease;
 }
 
 p img[alt="LinkedIn"]:hover,
 p img[alt="Email"]:hover {
-filter:
-grayscale(0%);
-
-border-color:
-var(--teal);
-
-transform:
-translateY(-4px);
-
-box-shadow:
-var(--shadow-1);
+  transform: translateY(-2px);
 }
 
-/* ==========================================================================
-TABLES
-========================================================================== */
-
-table {
-width: 100%;
-
-margin:
-28px
-0;
-
-border-collapse:
-separate;
-
-border-spacing:
-0;
-
-overflow: hidden;
-
-background:
-rgba(255,255,255,0.4);
-
-border:
-1px solid var(--line);
-
-border-radius:
-5px;
-
-font-size: 14px;
-}
-
-th {
-padding:
-12px
-14px;
-
-color:
-var(--paper);
-
-background:
-var(--ink);
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size: 10px;
-
-font-weight: 500;
-
-letter-spacing:
-0.08em;
-
-text-align:
-left;
-
-text-transform:
-uppercase;
-}
-
-td {
-padding:
-12px
-14px;
-
-border-top:
-1px solid var(--line);
-}
-
-tr:hover td {
-background:
-rgba(8,127,140,0.045);
-}
-
-/* ==========================================================================
-FOOTER
-========================================================================== */
+/* -------------------- footer -------------------- */
 
 footer {
-position: relative;
-
-margin-top:
-90px;
-
-padding-top:
-25px;
-
-color:
-var(--ink-3);
-
-border-top:
-1px solid var(--line);
-
-font-family:
-"DM Mono",
-monospace;
-
-font-size:
-10px;
-
-letter-spacing:
-0.06em;
+  margin-top: 64px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  color: #736f61;
 }
 
-footer::before {
-content:
-"END OF DOCUMENT";
-
-display:
-block;
-
-margin-bottom:
-9px;
-
-color:
-var(--coral);
-
-font-size:
-9px;
-
-letter-spacing:
-0.16em;
-}
-
-/* ==========================================================================
-GENERAL IMAGE SAFETY
-========================================================================== */
-
-img {
-max-width: 100%;
-height: auto;
-}
-
-/* ==========================================================================
-ACCESSIBILITY — REDUCED MOTION
-========================================================================== */
+/* -------------------- accessibility: respect reduced motion -------------------- */
 
 @media (prefers-reduced-motion: reduce) {
-
-html {
-scroll-behavior:
-auto;
+  * { transition: none !important; animation: none !important; }
+  div[style*="background-color"] { opacity: 1 !important; transform: none !important; }
 }
 
-*,
-*::before,
-*::after {
-animation:
-none !important;
+/* -------------------- responsive -------------------- */
 
-transition:
-  none !important;
-
+@media (max-width: 640px) {
+  .wrapper { padding: 36px 18px 60px; }
+  header h1 { font-size: 27px; }
+  body { font-size: 16px; }
 }
-
-div[style*="background-color"] {
-opacity:
-1 !important;
-
-transform:
-  none !important;
-
-}
-}
-
-/* ==========================================================================
-TABLET
-========================================================================== */
-
-@media (max-width: 700px) {
-
-.wrapper {
-width:
-min(
-100% - 36px,
-920px
-);
-
-padding:
-  45px
-  0
-  70px;
-
-}
-
-header {
-padding:
-27px
-25px
-34px;
-
-margin-bottom:
-  45px;
-
-}
-
-header::after {
-left:
-25px;
-
-right:
-  25px;
-
-}
-
-header h1 {
-font-size:
-clamp(
-36px,
-11vw,
-52px
-);
-}
-
-header p {
-font-size:
-11px;
-}
-
-h2 {
-margin-top:
-55px;
-
-font-size:
-  24px;
-
-}
-
-body {
-font-size:
-16px;
-}
-
-table {
-display:
-block;
-
-overflow-x:
-  auto;
-
-white-space:
-  nowrap;
-
-}
-}
-
-/* ==========================================================================
-PHONE
-========================================================================== */
-
-@media (max-width: 430px) {
-
-.wrapper {
-width:
-calc(100% - 28px);
-
-padding-top:
-  30px;
-
-}
-
-header {
-padding:
-24px
-20px
-32px;
-}
-
-header::after {
-left:
-20px;
-
-right:
-  20px;
-
-}
-
-header h1 {
-font-size:
-35px;
-
-letter-spacing:
-  -0.045em;
-
-}
-
-header p {
-font-size:
-10px;
-}
-
-h2 {
-font-size:
-21px;
-}
-
-h3 {
-font-size:
-17px;
-}
-
-blockquote {
-margin-left:
-0;
-
-margin-right:
-  0;
-
-padding:
-  17px
-  18px;
-
-}
-
-pre {
-margin-left:
--3px;
-
-margin-right:
-  -3px;
-
-padding:
-  18px;
-
-}
-
-footer {
-margin-top:
-65px;
-}
-}
-
-/* ==========================================================================
-PRINT
-========================================================================== */
-
-@media print {
-
-body {
-background:
-#fff;
-}
-
-body::before,
-body::after {
-display:
-none;
-}
-
-.wrapper {
-width:
-100%;
-
-padding:
-  0;
-
-}
-
-header {
-color:
-#000;
-
-background:
-  none;
-
-box-shadow:
-  none;
-
-border:
-  1px solid #ccc;
-
-}
-
-header h1 {
-color:
-#000;
-}
-
-a {
-color:
-inherit;
-
-border:
-  none;
-
-}
-
-p > img {
-box-shadow:
-none;
-}
-}
+also improve this design
