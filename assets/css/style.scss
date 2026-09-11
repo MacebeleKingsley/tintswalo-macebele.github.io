@@ -92,6 +92,35 @@ button:focus-visible {
 /* -------------------- header / masthead -------------------- */
 /* Slate's default header is plain white — give it the same document-plate
    treatment as the rest of the site, plus a monospace kicker line */
+header img[alt="Logo"] {
+  position: fixed;
+  top: 22px;
+  right: 24px;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid var(--copper);
+  box-shadow: 0 8px 20px rgba(28, 36, 48, 0.28);
+  background: var(--paper);
+  z-index: 100;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+ 
+header img[alt="Logo"]:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 26px rgba(28, 36, 48, 0.35);
+}
+ 
+@media (max-width: 640px) {
+  header img[alt="Logo"] {
+    width: 56px;
+    height: 56px;
+    top: 14px;
+    right: 14px;
+    border-width: 2px;
+  }
+}
 
 header {
   background: var(--ink) !important;
