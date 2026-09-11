@@ -22,8 +22,34 @@
 
 /* -------------------- base -------------------- */
 
+html {
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: "IBM Plex Sans", -apple-system, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  line-height: 1.65;
+  /* the --dot variable, finally put to work: a faint engineering-grid texture */
+  background-image: radial-gradient(var(--dot) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-position: -11px -11px;
+}
 
+::selection {
+  background: var(--copper);
+  color: var(--paper);
+}
+
+/* thin, muted scrollbar to match the palette (webkit only, degrades gracefully) */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--paper-alt); }
+::-webkit-scrollbar-thumb {
+  background: var(--rule);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--blue); }
 
 a {
   color: var(--blue);
@@ -40,8 +66,61 @@ button:focus-visible {
   outline-offset: 2px;
 }
 
+/* -------------------- header / masthead -------------------- */
+/* Slate's default header is plain white — give it the same document-plate
+   treatment as the rest of the site, plus a monospace kicker line */
+
+header {
+  background: var(--ink) !important;
+  border-bottom: 3px solid var(--copper);
+  position: relative;
+}
+
+header:before {
+  content: "// PORTFOLIO";
+  display: block;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--copper);
+  margin-bottom: 10px;
+}
+
+header h1 {
+  color: var(--paper) !important;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+header h1 a { color: var(--paper) !important; border-bottom: none; }
+
+header p {
+  color: rgba(245, 243, 238, 0.75) !important;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 13px;
+}
+
+header ul {
+  border-top-color: rgba(245, 243, 238, 0.2) !important;
+}
+
+header ul li a {
+  color: var(--paper) !important;
+  border: 1px solid rgba(245, 243, 238, 0.3);
+}
+
+header ul li a:hover {
+  background: var(--copper) !important;
+  border-color: var(--copper);
+  color: var(--ink) !important;
+}
 
 /* -------------------- headings & body copy -------------------- */
+
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
 
 h2 {
   font-size: 21px;
@@ -49,6 +128,32 @@ h2 {
   margin: 48px 0 16px;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--rule);
+  position: relative;
+  color: var(--blue); /* default, so headings without an inline style="" still match */
+}
+
+h4 {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5a5648;
+  border-bottom: 1px dashed var(--rule);
+  padding-bottom: 4px;
+  margin: 24px 0 10px;
+  display: inline-block;
+}
+
+/* small copper tick mark before section headings — a recurring "index" motif */
+h2:before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--copper);
+  margin-right: 10px;
+  transform: translateY(-1px);
 }
 
 h3 {
@@ -71,6 +176,8 @@ li { margin-bottom: 6px; }
 
 em { color: #5a5648; font-style: italic; }
 
+/* -------------------- inline code & code blocks -------------------- */
+
 code {
   font-family: "IBM Plex Mono", monospace;
   background: var(--paper-alt);
@@ -79,17 +186,84 @@ code {
   font-size: 0.88em;
 }
 
+pre {
+  font-family: "IBM Plex Mono", monospace;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 4px;
+  padding: 16px 18px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.55;
+  border-left: 3px solid var(--copper);
+  margin: 0 0 20px;
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* -------------------- blockquotes -------------------- */
+
+blockquote {
+  border-left: 3px solid var(--blue);
+  margin: 0 0 20px;
+  padding: 4px 0 4px 18px;
+  color: #4a5563;
+  font-style: italic;
+}
+
+blockquote p:last-child { margin-bottom: 0; }
+
+/* -------------------- tables -------------------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 24px;
+  font-size: 14.5px;
+}
+
+th, td {
+  border: 1px solid var(--rule);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background: var(--paper-alt);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 12.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) td { background: rgba(28, 36, 48, 0.02); }
+
 /* -------------------- project figures -------------------- */
 p > img {
   display: block;
-  width: 500;
-  max-width: 500;
-  height: 300;
+  max-width: 100%;
+  height: auto; /* fixes: inline width/height attrs vary per image (450x300, 500, etc.) —
+                   this keeps every figure responsive instead of relying on invalid
+                   unitless width/height that browsers silently ignored */
   border: 1px solid var(--rule);
   padding: 6px;
   background: #fff;
   margin: 4px auto 4px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+/* the header typing-SVG banner needs a light frame so it doesn't float
+   loose against the dot-grid background */
+img[src*="readme-typing-svg"] {
+  display: block;
+  margin: 0 auto 8px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--rule);
 }
 
 /* the one interactive flourish tied to an actual user action: hovering a figure */
@@ -200,4 +374,6 @@ footer {
 @media (max-width: 640px) {
   .wrapper { padding: 36px 18px 60px; }
   header h1 { font-size: 27px; }
+  table { font-size: 13px; }
+  th, td { padding: 6px 8px; }
 }
