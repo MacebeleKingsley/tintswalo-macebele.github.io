@@ -97,7 +97,7 @@ button:focus-visible {
 header {
   position: fixed;
   top: 24px;
-  right: 24px;
+  left: 24px;
   width: 220px;
   max-height: calc(100vh - 48px);
   overflow-y: auto;
@@ -189,7 +189,7 @@ header ul li a:hover {
 /* the fixed card needs the main content to leave room for it, or text
    would run underneath it on wide screens */
 .wrapper {
-  padding-right: 260px;
+  padding-left: 260px;
 }
 
 @media (max-width: 900px) {
