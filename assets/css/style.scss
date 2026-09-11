@@ -129,6 +129,7 @@ header {
 }
 
 header:before {
+  position: fixed;
   display: block;
   font-family: "IBM Plex Mono", monospace;
   font-size: 11px;
